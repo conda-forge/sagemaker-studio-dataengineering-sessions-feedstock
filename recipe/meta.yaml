@@ -1,5 +1,5 @@
 {% set name = "sagemaker-studio-dataengineering-sessions" %}
-{% set version = "1.0.13" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sagemaker_studio_dataengineering_sessions-{{ version }}.tar.gz
-  sha256: 252623a94c789df3fd61f075ae1807659b32d820733eaa936c25155a6f382bcd
+  sha256: 2ae59653fc5af3efee52b7791af65ccdb546ff4eaf8b86ef1854f31e0f988159
 
 build:
   noarch: python
