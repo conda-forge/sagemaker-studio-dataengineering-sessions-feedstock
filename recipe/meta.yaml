@@ -1,15 +1,15 @@
 {% set name = "sagemaker-studio-dataengineering-sessions" %}
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 {% set python_min = "3.11" %}
-{% set sha256 = "5170e9c55e3fbd8c9a08001d3c0541fca4d745750be7612878b56a7f2b521591" %}
-{% set blake2b256 = "d5b89cd429b4c6b24d29764726909d2fdc849064f23487a07e96a21984d7ab93" %}
+{% set sha256 = "724b072405d9d74a5f42fcfd7a7fbc415b631e40cc37e03672a282ae8f07339a" %}
+{% set blake2b256 = "bf280418efd26f9f08bafb5c0c35a5d3e845d08d21e5272b7b7f4acac8620fe6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/9d/3b/7651dd422a165b7bca007a7a2eac5a8a29a9a8de435ea78e1831623dbc53/sagemaker_studio_dataengineering_sessions-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/{{ blake2b256[:2] }}/{{ blake2b256[2:4] }}/{{ blake2b256[4:] }}/sagemaker_studio_dataengineering_sessions-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
