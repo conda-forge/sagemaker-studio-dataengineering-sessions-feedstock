@@ -145,8 +145,6 @@ Feedstock Maintainers
 * [@AshleyZSY](https://github.com/AshleyZSY/)
 * [@Jas0nch](https://github.com/Jas0nch/)
 * [@freddylyu173](https://github.com/freddylyu173/)
+* [@tchenlin](https://github.com/tchenlin/)
 * [@yzhum](https://github.com/yzhum/)
-
-
-<!-- dummy commit to enable rerendering -->
 
