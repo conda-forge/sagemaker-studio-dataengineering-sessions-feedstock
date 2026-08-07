@@ -40,31 +40,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `sagemaker-studio-dataengineering-sessions` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install sagemaker-studio-dataengineering-sessions
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install sagemaker-studio-dataengineering-sessions
 ```
 
-It is possible to list all of the versions of `sagemaker-studio-dataengineering-sessions` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add sagemaker-studio-dataengineering-sessions
+# for installing globally
+pixi global install sagemaker-studio-dataengineering-sessions
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `sagemaker-studio-dataengineering-sessions` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search sagemaker-studio-dataengineering-sessions --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search sagemaker-studio-dataengineering-sessions --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search sagemaker-studio-dataengineering-sessions --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -76,6 +118,8 @@ mamba repoquery whoneeds sagemaker-studio-dataengineering-sessions --channel con
 # List dependencies of `sagemaker-studio-dataengineering-sessions`:
 mamba repoquery depends sagemaker-studio-dataengineering-sessions --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -149,7 +193,4 @@ Feedstock Maintainers
 * [@freddylyu173](https://github.com/freddylyu173/)
 * [@tchenlin](https://github.com/tchenlin/)
 * [@yzhum](https://github.com/yzhum/)
-
-
-<!-- dummy commit to enable rerendering -->
 
